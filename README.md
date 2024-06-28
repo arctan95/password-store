@@ -1,6 +1,10 @@
 # password-store
 #### Usage
 ```sh
+# synchronize the password store
+pass git pull
+pass git push
+
 # insert a new password
 pass insert <name> # single-line
 pass insert -m <name> # multi-line
